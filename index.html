@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Sample Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Form Builder</h1>
+        <div id="form-builder">
+            <h2>Form Input</h2>
+            <p>
+                Click on the + button to add form section
+            </p>
+
+            <form id="form-elements">
+            </form>
+            <br>
+            <button onclick="addForm()">+</button>
+
+            <br><br>
+            <button onclick="createFinalForm()">Create Final Form</button>
+        </div>
+
+        <div id="final-form">
+            <h2 class="finalFormHeading"></h2>
+            <form id="generated-form">
+            </form>
+        </div>
+        <script src="index.js">
+        </script>
+    </div>
+</body>
+
+</html>
